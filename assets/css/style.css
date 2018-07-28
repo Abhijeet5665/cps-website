@@ -36,6 +36,12 @@ body {
     max-height: 40px;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 #menu {
     background-color: rgba(28, 43, 75, 1);
     color: #fff;

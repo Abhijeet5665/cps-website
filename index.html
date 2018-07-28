@@ -304,6 +304,12 @@
                </div>
              </div>
    <!-- FEATURES SECTION END-->
+
+   <!--marque text-->
+<marquee behavior="scroll" direction="left"> HTML scrolling text for important notices </marquee>
+<!--marque end-->
+
+
     <div id="faculty-sec" >
     <div class="container set-pad">
              <div class="row text-center">
@@ -442,6 +448,23 @@
 
                </div>
              </div>
+
+             <!--gallery-->
+             <div id="gallery-sec">
+               <img src="assets/img/12.gif" style="width:2500px;"/>
+            <!--Top Controls-->
+            <h3>(<span id="num">#</span>) <span id='title'>title</span></h3>
+
+            <img id="comic" style="height:250px;margin-left:500px;" class="centre" />
+            <br/>
+            <br/>
+            <!--Bottom Controls-->
+            <div style="margin-left:500px;">
+            <button class="prev" onclick="prev(); return false;" disabled>PREVIOUS</button>
+            <button class="next" onclick="next(); return false;">NEXT</button>
+          </div>
+          </div>
+
       <!-- COURSES SECTION END-->
     <div id="contact-sec">
            <div class="overlay">
@@ -523,30 +546,6 @@
 
                 </div>
                  </div>
-<!--asdjaksdans,mdn,msnf,fma-->
-<h3>My Google Maps Demo</h3>
-    <!--The div element for the map -->
-    <div id="map"></div>
-    <script>
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  var uluru = {lat: -25.344, lng: 131.036};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-    </script>
-    <!--Load the API from the specified URL
-    * The async attribute allows the browser to render the page while the API loads
-    * The key parameter will contain your own API key (which is not needed for this tutorial)
-    * The callback parameter executes the initMap() function
-    -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMQ7gb-W1xUj2cK3jFJidNqJLAN6e4v3I&callback=initMap">
-    </script>
-
 
 
      <!-- CONTACT SECTION END-->
@@ -585,7 +584,7 @@ function initMap() {
 
  <!-- Contact Form JavaScript File -->
  <script src="contactform/contactform.js"></script>
-
+ <script src="js/new.js"></script>
  <script src="js/main.js"></script>
 </body>
 </html>
