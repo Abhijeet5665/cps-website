@@ -44,13 +44,26 @@
     margin: auto;
   }
 </style>
-<style>
-       /* Set the size of the div element that contains the map */
-      #map {
-        height: 400px;  /* The height is 400 pixels */
-        width: 100%;  /* The width is the width of the web page */
-       }
-    </style>
+<style type="text/css">
+
+.thumbnails img {
+	height: 80px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+	border: 4px solid #00ccff;
+	cursor:pointer;
+}
+
+.preview img {
+	border: 4px solid #444;
+	padding: 1px;
+	width: 800px;
+}
+</style>
 
 </head>
 <body >
@@ -450,20 +463,26 @@
              </div>
 
              <!--gallery-->
-             <div id="gallery-sec">
-               <img src="assets/img/12.gif" style="width:2500px;"/>
-            <!--Top Controls-->
-            <h3>(<span id="num">#</span>) <span id='title'>title</span></h3>
 
-            <img id="comic" style="height:250px;margin-left:500px;" class="centre" />
-            <br/>
-            <br/>
-            <!--Bottom Controls-->
-            <div style="margin-left:500px;">
-            <button class="prev" onclick="prev(); return false;" disabled>PREVIOUS</button>
-            <button class="next" onclick="next(); return false;">NEXT</button>
-          </div>
-          </div>
+             <div class="gallery" align="center" id="gallery-sec">
+	<h2>Simple Photo Gallery with HTML and JavaScript</h2>
+	<p>Created by Abhijeet Saraf</p>
+
+	<br />
+
+	<div class="thumbnails">
+		<img onmouseover="preview.src=img1.src" name="img1" src="images/img1.jpg" alt=""/>
+		<img onmouseover="preview.src=img2.src" name="img2" src="images/img2.jpg" alt=""/>
+		<img onmouseover="preview.src=img3.src" name="img3" src="images/img3.jpg" alt=""/>
+		<img onmouseover="preview.src=img4.src" name="img4" src="images/img4.jpg" alt=""/>
+		<img onmouseover="preview.src=img5.src" name="img5" src="images/img5.jpg" alt=""/>
+	</div><br/>
+
+	<div class="preview" align="center">
+		<img name="preview" src="images/img1.jpg" alt=""/>
+	</div>
+
+</div>
 
       <!-- COURSES SECTION END-->
     <div id="contact-sec">
