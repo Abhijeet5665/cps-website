@@ -36,12 +36,8 @@ body {
     max-height: 40px;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
+
+
 #menu {
     background-color: rgba(28, 43, 75, 1);
     color: #fff;
@@ -71,14 +67,23 @@ body {
 .home-sec {
     padding-top: 10px;
     padding-bottom: 60px;
-    background: url(../img/black.jpg) no-repeat center center;
+    background: url(../img/giphy1.gif) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
     color: #ffffff;
     background-attachment: fixed;
 }
+#testimonial{
+  background-color:rgba(0,0,255,0.3);
+  min-height: 500px;
 
+}
+
+#gallery-sec{
+  background-color:grey;
+  min-height: 500px;
+}
     .home-sec .overlay {
         background: rgba(38, 57, 88, 0.89);
         min-height: 500px;
