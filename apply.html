@@ -14,10 +14,14 @@
       margin-right:30px;
       margin-left: 30px;
     }
+
+    .jumbotron{
+      background-color:rgba(72, 166, 248, 0.55);
+    }
     </style>
   </head>
   <body>
-
+<div class="navbar nav">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-left:40%;">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -40,6 +44,7 @@
     </form>
   </div>
 </nav>
+</div>
 
 
 <div class="container">
@@ -88,7 +93,10 @@
       <label for="inputState">State</label>
       <select id="inputState" class="form-control">
         <option selected>Choose...</option>
-        <option>...</option>
+        <option>Bihar</option>
+        <option>Jharkhand</option>
+        <option>Karnataka</option>
+        <option>Delhi</option>
       </select>
     </div>
     <div class="form-group col-md-2">
@@ -112,18 +120,23 @@
         <div class="embed-wrap  map__embed-wrap  js-map">
 
 
-                                            <iframe src="https://maps.google.com/maps?q=central%20public%20school%20patna%20bihar&t=&z=13&ie=UTF8&iwloc=&output=embed" allowFullScreen height="200" width="100%" class="js-google-maps-embed-frame" frameborder="0"></iframe>
+                                            <iframe src="https://maps.google.com/maps?q=central%20public%20school%20patna%20bihar&t=&z=13&ie=UTF8&iwloc=&output=embed" allowFullScreen height="300px" width="100%" class="js-google-maps-embed-frame" frameborder="0"></iframe>
         </div>
   </div>
 
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">MAP ROUTE</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
 </div>
 </div>
+<div id="footer" style="margin-left:60%">
+      &copy 2014 yourdomain.com | No Rights Reserved |  <a href="http://github.com/Abhijeet5665" style="color:green;font-style:underline;font-weight:bold;" target="_blank">Design by :Abhijeet Saraf</a>
+</div>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
