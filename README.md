@@ -17,7 +17,7 @@ The deployment is very easy just follow the below steps:
 
 ## Authors
 
-**Abhijeet Saraf**
+**Abhijeet Saraf**  
 **Ankit Anand**
 
 ## License
