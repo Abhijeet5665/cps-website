@@ -26,8 +26,20 @@ This project is licensed under the GPU License.
 
 ## Acknowledgments
 
-Mohit Sharma  
-Shakir Jamil  
+Mohit Sharma - CEO of Onibus tech.
+Shakir Jamil  - Assistant Director
+
+
+Technology stacks:
+Html5 
+CSS 
+js 
+
+
+
+Ack- 
 W3schools  
 Stackoverflow  
 WebDevBootCamp 
+
+
